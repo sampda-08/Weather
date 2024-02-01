@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+
+body
+{
+    background-image:radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url('../image/background.jpg');
+ 
+}
+
+.container {
+    width: 70%;
+    max-width: 470px;
+    height: 600px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 105px auto 0;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+   
+    height: 150px;
+}
+
+.inputs input[type="text"]
+{
+    height: 60px;
+    background: #ebfffc;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 30px;
+    margin-right: 16px;
+    outline: 0;
+    flex: 1;
+}
+
+.inputs input[type="submit"] 
+{
+    height: 60px;
+    width: 60px;
+    background: #ebfffc;
+    font-weight: bold;
+    font-size: 1rem;
+    color:black;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    margin-top: 4px;
+    cursor: pointer;
+    
+}
+
+.display 
+{
+    text-align: center;
+  
+    color: white;
+
+}
+
+
+
+.wrapper
+{
+    margin: 0 9rem;
+   
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2 
+{
+  
+   
+   text-align: center;
+
+   padding: 5px 0;
+    color: white;
+}
+
+.wrapper p
+{
+    margin: 20px 50px;
+    color: #04214c;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: white;
+}
+
+.wrapper p span
+{
+    font-size: 26px;
+    color: #5e0df4;
+}
+
